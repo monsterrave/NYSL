@@ -22,6 +22,33 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-	img {
-		float: left;
-	}
+
+body {
+  background: gray;
+		font-size: 14px;
+		margin:40px;
+    font-family: Tahoma,Arial,sans-serif;
+}
+
+.logo{
+  width:80px;
+  float:left;
+}
+p{
+  margin:20px;
+}
+nav{
+  margin:25px;
+}
+h1{
+  font-size: 30px;
+}
+aside img{
+  width:150px;
+  float: left;
+  position: absolute;
+  
+}
+section{
+  float: right;
+}
