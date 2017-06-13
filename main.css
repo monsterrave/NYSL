@@ -22,8 +22,12 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-	
-.logo {
-	width: 50%;
-
+	body{background: gray;
+		font-size: 14px;
+		margin:40px;}
 }
+.logo img{
+	resize: 50%;
+}
+img {margin:40px;}
+p{margin:30px;}
