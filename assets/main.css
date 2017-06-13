@@ -60,3 +60,7 @@ section{
 h2{
     text-decoration:underline;
 }
+ol div{
+  list-style-type: lower-latin;
+
+}
