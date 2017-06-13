@@ -39,12 +39,16 @@ p{
 }
 nav{
   margin:25px;
+  position:relative;
+  left:20px;
 }
 h1{
   font-size: 30px;
+  position:relative;
+  left:20px;
 }
 aside img{
-  width:150px;
+  width:300px;
   float: left;
   position: absolute;
   
@@ -52,4 +56,7 @@ aside img{
 section{
   width:60%;
   float: right;
+}
+h2{
+    text-decoration:underline;
 }
