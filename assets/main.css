@@ -114,7 +114,7 @@
   }
   
   .headline {
-      border-top: 10px solid #594f83;
+      border-top: 10px solid #033949;
       font-size: 30px;
       padding: 50px;
       padding-top: 60px;
@@ -127,7 +127,14 @@
 
   .gradient {
       color: #033949;
-      background: linear-gradient(to bottom, #b3b3b3 0%, #ffffff 100%);
+      background: linear-gradient(to bottom, #b3b3b3 0%, #033949 100%);
+  }
+
+  .gradient:after
+ {
+      content:"";
+      display: block;
+      clear: both;
   }
   
   p {
@@ -154,13 +161,13 @@
       height: : 300px;
       float: left;
       padding: 50px;
+      display:inline-block;
 
   }
   
   section {
       margin: 0px;
       text-align: left;
-      position: center;
       padding: 50px;
   }
   
