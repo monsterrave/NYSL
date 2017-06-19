@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Homepage NYSL</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/images/nysl_logo.png" alt="the nysl logo" class="logo" />
+        <h1>Northside Youth Soccer League</h1>
+        <nav>
+            <a href="basics.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="gameinfo.html">GameInfo</a> |
+            <a href="nyslrules.html">NYSLrules</a> |
+            <a href="registrationform.html">Registration Form</a>
+        </nav>
+    </header>
+    <div class="headline">
+        <h2>Registration Form</h2></div>
+    <div class="gradient">
+        <section class="registration">
+            <table>
+                <form action="/login" method="post">
+                    <tr>
+                        <td><a>Player´s First Name: <input type="text" name="fname"></a></td>
+                        <td><a>Last Name: <input type="text" name="lname"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a>Street Address: <input type="text" name="address"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a>City: <input type="text" name="city"></a></td>
+                        <td><a>ZIP Code: <input type="text" name="zip"></a></td>
+                    </tr>
+                    <tr>
+                        <td><a>Birth Date (mm/dd/yyyy): <input type="text" name="birth"></a></td>
+                        <td><a>Gender: <input type="checkbox" name="gender" value="Male"> Male
+                <input type="checkbox" name="gender" value="Female"> Female</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>Grade: <input type="checkbox" name="grade" value="Pre-School"> Pre-School
+                <input type="checkbox" name="grade" value="1st"> 1st
+                <input type="checkbox" name="grade" value="2nd"> 2nd
+                <input type="checkbox" name="grade" value="3rd"> 3rd
+                <input type="checkbox" name="grade" value="4th"> 4th
+                <input type="checkbox" name="grade" value="5th"> 5th</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a>Parent/Guardian: <input type="text" name="parent"></a></td>
+                    </tr>
+                    <tr>
+                        <td> <a>Contact Phone: <input type="text" name="fon"></a></td>
+                        <td> <a>Contact Email: <input type="text" name="username"></a></td>
+                    </tr>
+                </form>
+            </table>
+        </section>
+        <p><b>Which elementary schools do you live near?</b></p>
+        <section class="firstschool">
+            <p><b>First Closest School:</b></p>
+            <table>
+                <tr>
+                    <td>
+                        <input class type="checkbox" name="firstschool" value="AJ Katzenmaier"> AJ Katzenmaier</td>
+                    <td>
+                        <input type="checkbox" name="firstschool" value="Marjorie P Hart"> Marjorie P Hart</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="firstschool" value="Greenbay"> Greenbay</td>
+                    <td>
+                        <input type="checkbox" name="firstschool" value="North Elementary"> North Elementary</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="firstschool" value="Howard A Yeager"> Howard A Yeager</td>
+                    <td>
+                        <input type="checkbox" name="firstschool" value="South Elementary"> South Elementary</td>
+                </tr>
+            </table>
+        </section>
+        <section class="secschool">
+            <p><b>Second Closest School:</b></p>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="secschool" value="AJ Katzenmaier"> AJ Katzenmaier</td>
+                    <td>
+                        <input type="checkbox" name="secschool" value="Marjorie P Hart"> Marjorie P Hart</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="secschool" value="Greenbay"> Greenbay</td>
+                    <td>
+                        <input type="checkbox" name="secschool" value="North Elementary"> North Elementary</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="secschool" value="Howard A Yeager"> Howard A Yeager</td>
+                    <td>
+                        <input type="checkbox" name="secschool" value="South Elementary"> South Elementary</td>
+                </tr>
+            </table>
+        </section>
+        <p><b>What position(s) do you normally play?</b> (check all that apply)</p>
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="pos" value="Forward"> Forward</td>
+                    <td>
+                        <input type="checkbox" name="pos" value="Midfield"> Midfield</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="pos" value="Defense"> Defense</td>
+                    <td>
+                        <input type="checkbox" name="pos" value="Goalkeeper"> Goalkeeper</td>
+                </tr>
+            </table>
+        </section>
+        <p><b>What position(s) do you want to play?</b> (check all that apply)</p>
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="pos" value="Forward"> Forward</td>
+                    <td>
+                        <input type="checkbox" name="pos" value="Midfield"> Midfield</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="pos" value="Defense"> Defense</td>
+                    <td>
+                        <input type="checkbox" name="pos" value="Goalkeeper"> Goalkeeper</td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <a id="uniform">
+            <input type="checkbox" name="uniform" value="uniformavailable"> <b>Already Have a Uniform</b></a>
+        <br>
+        <section class="jersey">
+            <p><b>Jersey Size:</b></p>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Youth Small"> Youth Small</td>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Medium"> Medium</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Youth Medium"> Youth Medium</td>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Large"> Large</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Youth Large"> Youth Large</td>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Extra-Large"> Extra-Large</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="jsize" value="Small"> Small</td>
+                </tr>
+            </table>
+        </section>
+        <section class="shorts">
+            <p><b>Shorts Size:</b></p>
+            <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Youth Small"> Youth Small</td>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Medium"> Medium</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Youth Medium"> Youth Medium</td>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Large"> Large</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Youth Large"> Youth Large</td>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Extra-Large"> Extra-Large</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="shsize" value="Small"> Small</td>
+                </tr>
+            </table>
+        </section>
+        <section class="permission">
+            <p>Permission to Play</p>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+            <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
+            <p>Parent/Guardian Signature: _____________________________________________________ Date: ___________________</p>
+        </section>
+    </div>
+</body>
+
+</html>
