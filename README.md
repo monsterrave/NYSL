@@ -1,2 +1,6 @@
 # NYSL web page example 
-first steps HTML & CSS
+HTML & CSS
+validation following industry standards
+supporting different browser
+validating form input with javascript
+
